@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8735cab235014829a3dc98c664118748/artifacts
+end_time: 1715633816685
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8735cab235014829a3dc98c664118748
+run_name: polite-sponge-42
+run_uuid: 8735cab235014829a3dc98c664118748
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715633815823
+status: 4
+tags: []
+user_id: chelzeemares

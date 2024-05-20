@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0072bd32e3194a7d98d51ad09ebc61d0/artifacts
+end_time: 1716224634743
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0072bd32e3194a7d98d51ad09ebc61d0
+run_name: redolent-skunk-498
+run_uuid: 0072bd32e3194a7d98d51ad09ebc61d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716224633671
+status: 4
+tags: []
+user_id: chelzeemares

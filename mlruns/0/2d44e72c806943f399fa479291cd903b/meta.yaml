@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2d44e72c806943f399fa479291cd903b/artifacts
+end_time: 1715633890734
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d44e72c806943f399fa479291cd903b
+run_name: welcoming-crane-999
+run_uuid: 2d44e72c806943f399fa479291cd903b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715633888257
+status: 4
+tags: []
+user_id: chelzeemares

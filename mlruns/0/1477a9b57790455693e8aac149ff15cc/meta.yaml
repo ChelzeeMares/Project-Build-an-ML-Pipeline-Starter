@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1477a9b57790455693e8aac149ff15cc/artifacts
+end_time: 1715632521595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1477a9b57790455693e8aac149ff15cc
+run_name: debonair-yak-335
+run_uuid: 1477a9b57790455693e8aac149ff15cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715632507127
+status: 3
+tags: []
+user_id: chelzeemares

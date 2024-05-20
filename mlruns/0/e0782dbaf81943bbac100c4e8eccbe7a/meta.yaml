@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e0782dbaf81943bbac100c4e8eccbe7a/artifacts
+end_time: 1715635467937
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0782dbaf81943bbac100c4e8eccbe7a
+run_name: tasteful-cow-80
+run_uuid: e0782dbaf81943bbac100c4e8eccbe7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715635447123
+status: 4
+tags: []
+user_id: chelzeemares

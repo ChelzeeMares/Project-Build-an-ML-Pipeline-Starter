@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/29d4bdebbefc4d2aa158e2d978d86219/artifacts
+end_time: 1715633852850
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29d4bdebbefc4d2aa158e2d978d86219
+run_name: popular-bird-93
+run_uuid: 29d4bdebbefc4d2aa158e2d978d86219
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715633852003
+status: 4
+tags: []
+user_id: chelzeemares

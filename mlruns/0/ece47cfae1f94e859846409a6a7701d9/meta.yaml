@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ece47cfae1f94e859846409a6a7701d9/artifacts
+end_time: 1716222390320
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ece47cfae1f94e859846409a6a7701d9
+run_name: melodic-stork-333
+run_uuid: ece47cfae1f94e859846409a6a7701d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716222345550
+status: 3
+tags: []
+user_id: chelzeemares

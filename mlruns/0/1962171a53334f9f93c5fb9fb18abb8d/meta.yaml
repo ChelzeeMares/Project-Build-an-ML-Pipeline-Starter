@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1962171a53334f9f93c5fb9fb18abb8d/artifacts
+end_time: 1715631915023
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1962171a53334f9f93c5fb9fb18abb8d
+run_name: handsome-swan-848
+run_uuid: 1962171a53334f9f93c5fb9fb18abb8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715631840314
+status: 3
+tags: []
+user_id: chelzeemares

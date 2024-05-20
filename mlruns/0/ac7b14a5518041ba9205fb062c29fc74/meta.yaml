@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ac7b14a5518041ba9205fb062c29fc74/artifacts
+end_time: 1715632343364
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac7b14a5518041ba9205fb062c29fc74
+run_name: overjoyed-fowl-238
+run_uuid: ac7b14a5518041ba9205fb062c29fc74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715632321637
+status: 4
+tags: []
+user_id: chelzeemares

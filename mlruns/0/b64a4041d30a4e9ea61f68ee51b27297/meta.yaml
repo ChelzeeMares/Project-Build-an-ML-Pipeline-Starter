@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b64a4041d30a4e9ea61f68ee51b27297/artifacts
+end_time: 1716222487096
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b64a4041d30a4e9ea61f68ee51b27297
+run_name: rebellious-hen-650
+run_uuid: b64a4041d30a4e9ea61f68ee51b27297
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716222312080
+status: 3
+tags: []
+user_id: chelzeemares

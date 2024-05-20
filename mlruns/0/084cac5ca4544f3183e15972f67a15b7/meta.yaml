@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/084cac5ca4544f3183e15972f67a15b7/artifacts
+end_time: 1715632853348
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 084cac5ca4544f3183e15972f67a15b7
+run_name: sedate-turtle-912
+run_uuid: 084cac5ca4544f3183e15972f67a15b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715632852409
+status: 4
+tags: []
+user_id: chelzeemares

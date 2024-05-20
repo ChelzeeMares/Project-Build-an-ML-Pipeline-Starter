@@ -1,0 +1,315 @@
+2024-05-13 15:27:11,977 INFO    StreamThr :85378 [internal.py:wandb_internal():87] W&B internal server running at pid: 85378, started at: 2024-05-13 15:27:11.976473
+2024-05-13 15:27:11,980 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: status
+2024-05-13 15:27:11,983 INFO    WriterThread:85378 [datastore.py:open_for_write():85] open: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/run-nxxztesp.wandb
+2024-05-13 15:27:11,983 DEBUG   SenderThread:85378 [sender.py:send():334] send: header
+2024-05-13 15:27:12,017 DEBUG   SenderThread:85378 [sender.py:send():334] send: run
+2024-05-13 15:27:12,258 INFO    SenderThread:85378 [dir_watcher.py:__init__():216] watching files in: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files
+2024-05-13 15:27:12,258 INFO    SenderThread:85378 [sender.py:_start_run_threads():1065] run started: nxxztesp with start time 1715632031.976282
+2024-05-13 15:27:12,258 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: summary_record
+2024-05-13 15:27:12,259 INFO    SenderThread:85378 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-13 15:27:12,261 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: check_version
+2024-05-13 15:27:12,261 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: check_version
+2024-05-13 15:27:12,319 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: run_start
+2024-05-13 15:27:12,350 DEBUG   HandlerThread:85378 [system_info.py:__init__():31] System info init
+2024-05-13 15:27:12,350 DEBUG   HandlerThread:85378 [system_info.py:__init__():46] System info init done
+2024-05-13 15:27:12,350 INFO    HandlerThread:85378 [system_monitor.py:start():151] Starting system monitor
+2024-05-13 15:27:12,350 INFO    SystemMonitor:85378 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-13 15:27:12,350 INFO    HandlerThread:85378 [system_monitor.py:probe():172] Collecting system info
+2024-05-13 15:27:12,351 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started cpu
+2024-05-13 15:27:12,351 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started disk
+2024-05-13 15:27:12,351 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started gpu
+2024-05-13 15:27:12,352 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started memory
+2024-05-13 15:27:12,353 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started network
+2024-05-13 15:27:12,363 DEBUG   HandlerThread:85378 [system_info.py:probe():195] Probing system
+2024-05-13 15:27:12,389 DEBUG   HandlerThread:85378 [system_info.py:_probe_git():180] Probing git
+2024-05-13 15:27:12,395 DEBUG   HandlerThread:85378 [system_info.py:_probe_git():188] Probing git done
+2024-05-13 15:27:12,395 DEBUG   HandlerThread:85378 [system_info.py:probe():241] Probing system done
+2024-05-13 15:27:12,395 DEBUG   HandlerThread:85378 [system_monitor.py:probe():181] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.10', 'python': '3.8.19', 'heartbeatAt': '2024-05-13T20:27:12.363796', 'startedAt': '2024-05-13T20:27:11.955789', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'src/eda/eda-Copy1.ipynb', 'root': '/home/chelzeemares/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'https://github.com/ChelzeeMares/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'host': 'LAPTOP-HR5U5LC1', 'username': 'chelzeemares', 'executable': '/home/chelzeemares/miniconda3/envs/udacity/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.018, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}, {'current': 2592.018, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 15.380844116210938}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 7.678943634033203}}
+2024-05-13 15:27:12,395 INFO    HandlerThread:85378 [system_monitor.py:probe():182] Finished collecting system info
+2024-05-13 15:27:12,395 INFO    HandlerThread:85378 [system_monitor.py:probe():185] Publishing system info
+2024-05-13 15:27:12,395 DEBUG   HandlerThread:85378 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-05-13 15:27:12,395 DEBUG   HandlerThread:85378 [system_info.py:_save_pip():67] Saving pip packages done
+2024-05-13 15:27:12,395 DEBUG   HandlerThread:85378 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-05-13 15:27:13,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/wandb-summary.json
+2024-05-13 15:27:13,261 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/conda-environment.yaml
+2024-05-13 15:27:13,261 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/requirements.txt
+2024-05-13 15:27:15,085 DEBUG   HandlerThread:85378 [system_info.py:_save_conda():86] Saving conda packages done
+2024-05-13 15:27:15,085 DEBUG   HandlerThread:85378 [system_info.py:_save_code():89] Saving code
+2024-05-13 15:27:15,085 WARNING HandlerThread:85378 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-05-13 15:27:15,085 DEBUG   HandlerThread:85378 [system_info.py:_save_patches():127] Saving git patches
+2024-05-13 15:27:15,218 DEBUG   HandlerThread:85378 [system_info.py:_save_patches():169] Saving git patches done
+2024-05-13 15:27:15,218 INFO    HandlerThread:85378 [system_monitor.py:probe():187] Finished publishing system info
+2024-05-13 15:27:15,220 DEBUG   SenderThread:85378 [sender.py:send():334] send: files
+2024-05-13 15:27:15,221 INFO    SenderThread:85378 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-05-13 15:27:15,221 INFO    SenderThread:85378 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-05-13 15:27:15,239 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-13 15:27:15,239 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: stop_status
+2024-05-13 15:27:15,259 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/conda-environment.yaml
+2024-05-13 15:27:15,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/wandb-metadata.json
+2024-05-13 15:27:15,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/diff.patch
+2024-05-13 15:27:15,332 DEBUG   SenderThread:85378 [sender.py:send():334] send: telemetry
+2024-05-13 15:27:15,555 INFO    Thread-16 :85378 [upload_job.py:push():143] Uploaded file /tmp/tmpq4fgnonlwandb/u0xv13ju-diff.patch
+2024-05-13 15:27:15,589 INFO    Thread-15 :85378 [upload_job.py:push():143] Uploaded file /tmp/tmpq4fgnonlwandb/qyuq6an0-wandb-metadata.json
+2024-05-13 15:27:15,597 DEBUG   SenderThread:85378 [sender.py:send():334] send: use_artifact
+2024-05-13 15:27:15,878 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: pause
+2024-05-13 15:27:15,878 INFO    HandlerThread:85378 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2024-05-13 15:27:15,878 INFO    HandlerThread:85378 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-13 15:27:15,879 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-13 15:27:15,880 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-13 15:27:15,880 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-13 15:27:15,880 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined cpu
+2024-05-13 15:27:15,881 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined disk
+2024-05-13 15:27:15,889 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined gpu
+2024-05-13 15:27:15,889 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined memory
+2024-05-13 15:27:15,889 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined network
+2024-05-13 15:27:15,889 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: resume
+2024-05-13 15:27:15,889 INFO    HandlerThread:85378 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2024-05-13 15:27:15,889 INFO    HandlerThread:85378 [system_monitor.py:start():151] Starting system monitor
+2024-05-13 15:27:15,890 INFO    SystemMonitor:85378 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-13 15:27:15,890 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started cpu
+2024-05-13 15:27:15,891 DEBUG   SenderThread:85378 [sender.py:send():334] send: stats
+2024-05-13 15:27:15,891 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started disk
+2024-05-13 15:27:15,892 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started gpu
+2024-05-13 15:27:15,893 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started memory
+2024-05-13 15:27:15,893 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started network
+2024-05-13 15:27:15,905 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: pause
+2024-05-13 15:27:15,905 INFO    HandlerThread:85378 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2024-05-13 15:27:15,905 INFO    HandlerThread:85378 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-13 15:27:15,907 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined cpu
+2024-05-13 15:27:15,907 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined disk
+2024-05-13 15:27:15,908 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-13 15:27:15,908 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-13 15:27:15,908 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-13 15:27:15,918 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined gpu
+2024-05-13 15:27:15,918 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined memory
+2024-05-13 15:27:15,918 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined network
+2024-05-13 15:27:15,918 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: resume
+2024-05-13 15:27:15,919 INFO    HandlerThread:85378 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2024-05-13 15:27:15,919 INFO    HandlerThread:85378 [system_monitor.py:start():151] Starting system monitor
+2024-05-13 15:27:15,919 DEBUG   SenderThread:85378 [sender.py:send():334] send: stats
+2024-05-13 15:27:15,919 INFO    SystemMonitor:85378 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-13 15:27:15,920 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started cpu
+2024-05-13 15:27:15,921 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started disk
+2024-05-13 15:27:15,922 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started gpu
+2024-05-13 15:27:15,922 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started memory
+2024-05-13 15:27:15,923 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started network
+2024-05-13 15:27:15,949 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: pause
+2024-05-13 15:27:15,949 INFO    HandlerThread:85378 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2024-05-13 15:27:15,949 INFO    HandlerThread:85378 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-13 15:27:15,951 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-13 15:27:15,951 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined cpu
+2024-05-13 15:27:15,951 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined disk
+2024-05-13 15:27:15,952 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-13 15:27:15,952 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-13 15:27:15,959 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined gpu
+2024-05-13 15:27:15,959 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined memory
+2024-05-13 15:27:15,959 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined network
+2024-05-13 15:27:15,960 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: resume
+2024-05-13 15:27:15,960 INFO    HandlerThread:85378 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2024-05-13 15:27:15,960 INFO    HandlerThread:85378 [system_monitor.py:start():151] Starting system monitor
+2024-05-13 15:27:15,960 INFO    SystemMonitor:85378 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-13 15:27:15,960 DEBUG   SenderThread:85378 [sender.py:send():334] send: stats
+2024-05-13 15:27:15,961 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started cpu
+2024-05-13 15:27:15,962 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started disk
+2024-05-13 15:27:15,962 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started gpu
+2024-05-13 15:27:15,963 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started memory
+2024-05-13 15:27:15,963 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started network
+2024-05-13 15:27:15,971 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: pause
+2024-05-13 15:27:15,971 INFO    HandlerThread:85378 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2024-05-13 15:27:15,971 INFO    HandlerThread:85378 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-13 15:27:15,971 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-13 15:27:15,972 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-13 15:27:15,972 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-13 15:27:15,973 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined cpu
+2024-05-13 15:27:15,974 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined disk
+2024-05-13 15:27:15,981 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined gpu
+2024-05-13 15:27:15,982 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined memory
+2024-05-13 15:27:15,982 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined network
+2024-05-13 15:27:15,982 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: resume
+2024-05-13 15:27:15,982 INFO    HandlerThread:85378 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2024-05-13 15:27:15,982 DEBUG   SenderThread:85378 [sender.py:send():334] send: stats
+2024-05-13 15:27:15,982 INFO    HandlerThread:85378 [system_monitor.py:start():151] Starting system monitor
+2024-05-13 15:27:15,983 INFO    SystemMonitor:85378 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-13 15:27:15,984 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started cpu
+2024-05-13 15:27:15,984 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started disk
+2024-05-13 15:27:15,984 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started gpu
+2024-05-13 15:27:15,985 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started memory
+2024-05-13 15:27:15,986 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started network
+2024-05-13 15:27:15,994 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: pause
+2024-05-13 15:27:15,994 INFO    HandlerThread:85378 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2024-05-13 15:27:15,994 INFO    HandlerThread:85378 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-13 15:27:15,995 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-13 15:27:15,995 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-13 15:27:15,996 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-13 15:27:15,997 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined cpu
+2024-05-13 15:27:15,997 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined disk
+2024-05-13 15:27:16,005 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined gpu
+2024-05-13 15:27:16,005 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined memory
+2024-05-13 15:27:16,005 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined network
+2024-05-13 15:27:16,005 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: resume
+2024-05-13 15:27:16,006 INFO    HandlerThread:85378 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2024-05-13 15:27:16,006 INFO    HandlerThread:85378 [system_monitor.py:start():151] Starting system monitor
+2024-05-13 15:27:16,006 DEBUG   SenderThread:85378 [sender.py:send():334] send: stats
+2024-05-13 15:27:16,006 INFO    SystemMonitor:85378 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-13 15:27:16,006 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started cpu
+2024-05-13 15:27:16,007 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started disk
+2024-05-13 15:27:16,007 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started gpu
+2024-05-13 15:27:16,008 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started memory
+2024-05-13 15:27:16,009 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started network
+2024-05-13 15:27:16,015 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: pause
+2024-05-13 15:27:16,015 INFO    HandlerThread:85378 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2024-05-13 15:27:16,015 INFO    HandlerThread:85378 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-13 15:27:16,016 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-13 15:27:16,017 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-13 15:27:16,017 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-13 15:27:16,017 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined cpu
+2024-05-13 15:27:16,018 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined disk
+2024-05-13 15:27:16,028 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined gpu
+2024-05-13 15:27:16,029 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined memory
+2024-05-13 15:27:16,029 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined network
+2024-05-13 15:27:16,029 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: resume
+2024-05-13 15:27:16,029 INFO    HandlerThread:85378 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2024-05-13 15:27:16,029 INFO    HandlerThread:85378 [system_monitor.py:start():151] Starting system monitor
+2024-05-13 15:27:16,030 INFO    SystemMonitor:85378 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-13 15:27:16,030 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started cpu
+2024-05-13 15:27:16,031 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started disk
+2024-05-13 15:27:16,031 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started gpu
+2024-05-13 15:27:16,032 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started memory
+2024-05-13 15:27:16,032 DEBUG   SenderThread:85378 [sender.py:send():334] send: stats
+2024-05-13 15:27:16,033 DEBUG   SenderThread:85378 [sender.py:send():334] send: telemetry
+2024-05-13 15:27:16,033 INFO    SystemMonitor:85378 [interfaces.py:start():168] Started network
+2024-05-13 15:27:16,062 DEBUG   SenderThread:85378 [sender.py:send():334] send: config
+2024-05-13 15:27:16,065 DEBUG   SenderThread:85378 [sender.py:send():334] send: exit
+2024-05-13 15:27:16,065 INFO    SenderThread:85378 [sender.py:send_exit():557] handling exit code: 0
+2024-05-13 15:27:16,065 INFO    SenderThread:85378 [sender.py:send_exit():559] handling runtime: 3
+2024-05-13 15:27:16,066 INFO    SenderThread:85378 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-13 15:27:16,066 INFO    SenderThread:85378 [sender.py:send_exit():565] send defer
+2024-05-13 15:27:16,066 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:16,066 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 0
+2024-05-13 15:27:16,066 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:16,066 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-05-13 15:27:16,066 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 1
+2024-05-13 15:27:16,066 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:16,066 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 1
+2024-05-13 15:27:16,067 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:16,067 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-05-13 15:27:16,067 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 2
+2024-05-13 15:27:16,067 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:16,067 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 2
+2024-05-13 15:27:16,067 INFO    HandlerThread:85378 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-13 15:27:16,067 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-13 15:27:16,068 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-13 15:27:16,068 DEBUG   SystemMonitor:85378 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-13 15:27:16,068 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined cpu
+2024-05-13 15:27:16,068 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined disk
+2024-05-13 15:27:16,074 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined gpu
+2024-05-13 15:27:16,074 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined memory
+2024-05-13 15:27:16,074 INFO    HandlerThread:85378 [interfaces.py:finish():175] Joined network
+2024-05-13 15:27:16,074 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:16,074 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-05-13 15:27:16,074 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 3
+2024-05-13 15:27:16,075 DEBUG   SenderThread:85378 [sender.py:send():334] send: stats
+2024-05-13 15:27:16,075 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:16,075 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 3
+2024-05-13 15:27:16,075 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:16,075 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-05-13 15:27:16,075 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 4
+2024-05-13 15:27:16,075 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:16,075 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 4
+2024-05-13 15:27:16,076 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:16,076 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-05-13 15:27:16,076 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 5
+2024-05-13 15:27:16,076 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:16,076 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 5
+2024-05-13 15:27:16,076 DEBUG   SenderThread:85378 [sender.py:send():334] send: summary
+2024-05-13 15:27:16,076 INFO    SenderThread:85378 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-13 15:27:16,076 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:16,076 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-05-13 15:27:16,076 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 6
+2024-05-13 15:27:16,077 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:16,077 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 6
+2024-05-13 15:27:16,077 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:16,077 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-05-13 15:27:16,079 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: status_report
+2024-05-13 15:27:16,164 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 7
+2024-05-13 15:27:16,165 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:16,165 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 7
+2024-05-13 15:27:16,165 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:16,165 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-05-13 15:27:16,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/wandb-summary.json
+2024-05-13 15:27:16,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/config.yaml
+2024-05-13 15:27:16,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/code/_session_history.ipynb
+2024-05-13 15:27:16,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/output.log
+2024-05-13 15:27:16,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/code
+2024-05-13 15:27:17,067 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-13 15:27:17,912 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 8
+2024-05-13 15:27:17,913 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: poll_exit
+2024-05-13 15:27:17,913 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:17,913 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 8
+2024-05-13 15:27:17,914 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:17,914 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-05-13 15:27:17,914 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 9
+2024-05-13 15:27:17,914 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:17,914 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 9
+2024-05-13 15:27:17,914 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:17,915 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-05-13 15:27:17,915 INFO    SenderThread:85378 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-05-13 15:27:18,067 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-13 15:27:18,260 INFO    Thread-12 :85378 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/output.log
+2024-05-13 15:27:18,261 INFO    SenderThread:85378 [dir_watcher.py:finish():392] scan: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files
+2024-05-13 15:27:18,261 INFO    SenderThread:85378 [dir_watcher.py:finish():406] scan save: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/conda-environment.yaml conda-environment.yaml
+2024-05-13 15:27:18,261 INFO    SenderThread:85378 [dir_watcher.py:finish():406] scan save: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/output.log output.log
+2024-05-13 15:27:18,261 INFO    SenderThread:85378 [dir_watcher.py:finish():406] scan save: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/diff.patch diff.patch
+2024-05-13 15:27:18,261 INFO    SenderThread:85378 [dir_watcher.py:finish():406] scan save: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/requirements.txt requirements.txt
+2024-05-13 15:27:18,261 INFO    SenderThread:85378 [dir_watcher.py:finish():406] scan save: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/wandb-summary.json wandb-summary.json
+2024-05-13 15:27:18,262 INFO    SenderThread:85378 [dir_watcher.py:finish():406] scan save: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/config.yaml config.yaml
+2024-05-13 15:27:18,262 INFO    SenderThread:85378 [dir_watcher.py:finish():406] scan save: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/wandb-metadata.json wandb-metadata.json
+2024-05-13 15:27:18,264 INFO    SenderThread:85378 [dir_watcher.py:finish():406] scan save: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-05-13 15:27:18,268 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 10
+2024-05-13 15:27:18,270 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: poll_exit
+2024-05-13 15:27:18,272 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:18,272 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 10
+2024-05-13 15:27:18,275 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:18,275 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-05-13 15:27:18,275 INFO    SenderThread:85378 [file_pusher.py:finish():160] shutting down file pusher
+2024-05-13 15:27:18,550 INFO    Thread-21 :85378 [upload_job.py:push():143] Uploaded file /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/config.yaml
+2024-05-13 15:27:18,558 INFO    Thread-20 :85378 [upload_job.py:push():143] Uploaded file /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/wandb-summary.json
+2024-05-13 15:27:18,613 INFO    Thread-22 :85378 [upload_job.py:push():143] Uploaded file /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/code/_session_history.ipynb
+2024-05-13 15:27:18,619 INFO    Thread-18 :85378 [upload_job.py:push():143] Uploaded file /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/output.log
+2024-05-13 15:27:18,634 INFO    Thread-19 :85378 [upload_job.py:push():143] Uploaded file /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/requirements.txt
+2024-05-13 15:27:18,674 INFO    Thread-17 :85378 [upload_job.py:push():143] Uploaded file /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/files/conda-environment.yaml
+2024-05-13 15:27:18,876 INFO    Thread-11 :85378 [sender.py:transition_state():585] send defer: 11
+2024-05-13 15:27:18,877 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:18,877 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 11
+2024-05-13 15:27:18,878 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:18,879 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-05-13 15:27:18,879 INFO    SenderThread:85378 [file_pusher.py:join():165] waiting for file pusher
+2024-05-13 15:27:18,879 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 12
+2024-05-13 15:27:18,880 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:18,880 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 12
+2024-05-13 15:27:18,881 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:18,881 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-05-13 15:27:18,945 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 13
+2024-05-13 15:27:18,946 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:18,946 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 13
+2024-05-13 15:27:18,948 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:18,948 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-05-13 15:27:18,948 INFO    SenderThread:85378 [sender.py:transition_state():585] send defer: 14
+2024-05-13 15:27:18,950 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: defer
+2024-05-13 15:27:18,950 INFO    HandlerThread:85378 [handler.py:handle_request_defer():170] handle defer: 14
+2024-05-13 15:27:18,952 DEBUG   SenderThread:85378 [sender.py:send():334] send: final
+2024-05-13 15:27:18,952 DEBUG   SenderThread:85378 [sender.py:send():334] send: footer
+2024-05-13 15:27:18,952 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: defer
+2024-05-13 15:27:18,953 INFO    SenderThread:85378 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-05-13 15:27:18,957 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-13 15:27:18,957 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: server_info
+2024-05-13 15:27:18,958 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: get_summary
+2024-05-13 15:27:18,958 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: sampled_history
+2024-05-13 15:27:18,961 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: poll_exit
+2024-05-13 15:27:18,962 DEBUG   SenderThread:85378 [sender.py:send_request():361] send_request: server_info
+2024-05-13 15:27:19,133 DEBUG   HandlerThread:85378 [handler.py:handle_request():144] handle_request: shutdown
+2024-05-13 15:27:19,133 INFO    HandlerThread:85378 [handler.py:finish():841] shutting down handler
+2024-05-13 15:27:19,960 INFO    WriterThread:85378 [datastore.py:close():299] close: /home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240513_152711-nxxztesp/run-nxxztesp.wandb
+2024-05-13 15:27:20,131 INFO    SenderThread:85378 [sender.py:finish():1491] shutting down sender
+2024-05-13 15:27:20,131 INFO    SenderThread:85378 [file_pusher.py:finish():160] shutting down file pusher
+2024-05-13 15:27:20,131 INFO    SenderThread:85378 [file_pusher.py:join():165] waiting for file pusher

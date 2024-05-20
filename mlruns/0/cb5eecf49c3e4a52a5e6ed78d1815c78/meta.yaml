@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cb5eecf49c3e4a52a5e6ed78d1815c78/artifacts
+end_time: 1715633990399
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb5eecf49c3e4a52a5e6ed78d1815c78
+run_name: masked-bear-419
+run_uuid: cb5eecf49c3e4a52a5e6ed78d1815c78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715633923389
+status: 4
+tags: []
+user_id: chelzeemares

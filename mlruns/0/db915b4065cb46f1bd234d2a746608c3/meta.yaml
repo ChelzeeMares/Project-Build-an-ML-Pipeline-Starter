@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/db915b4065cb46f1bd234d2a746608c3/artifacts
+end_time: 1715634114087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db915b4065cb46f1bd234d2a746608c3
+run_name: capricious-cow-635
+run_uuid: db915b4065cb46f1bd234d2a746608c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715634101770
+status: 4
+tags: []
+user_id: chelzeemares

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f3f31083ae88419f8b551286e09c9fb8/artifacts
+end_time: 1715632926033
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3f31083ae88419f8b551286e09c9fb8
+run_name: welcoming-mule-320
+run_uuid: f3f31083ae88419f8b551286e09c9fb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715632890112
+status: 3
+tags: []
+user_id: chelzeemares

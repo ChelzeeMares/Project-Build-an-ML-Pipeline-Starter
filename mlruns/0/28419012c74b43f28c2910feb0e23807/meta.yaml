@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/28419012c74b43f28c2910feb0e23807/artifacts
+end_time: 1716222486871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28419012c74b43f28c2910feb0e23807
+run_name: beautiful-colt-834
+run_uuid: 28419012c74b43f28c2910feb0e23807
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716222425579
+status: 3
+tags: []
+user_id: chelzeemares

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cfdce5cb692e4671b6810f3f3c652c1d/artifacts
+end_time: 1715631419250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cfdce5cb692e4671b6810f3f3c652c1d
+run_name: clean-gull-836
+run_uuid: cfdce5cb692e4671b6810f3f3c652c1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715631327409
+status: 4
+tags: []
+user_id: chelzeemares

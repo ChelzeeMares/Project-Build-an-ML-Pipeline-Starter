@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5670028f400146378c9fbb47de2a666d/artifacts
+end_time: 1716223851455
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5670028f400146378c9fbb47de2a666d
+run_name: salty-lamb-39
+run_uuid: 5670028f400146378c9fbb47de2a666d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716223850237
+status: 4
+tags: []
+user_id: chelzeemares

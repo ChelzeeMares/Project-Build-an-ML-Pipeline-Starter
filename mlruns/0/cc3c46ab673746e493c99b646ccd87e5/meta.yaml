@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cc3c46ab673746e493c99b646ccd87e5/artifacts
+end_time: 1715634384349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cc3c46ab673746e493c99b646ccd87e5
+run_name: enchanting-bear-481
+run_uuid: cc3c46ab673746e493c99b646ccd87e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715634371166
+status: 4
+tags: []
+user_id: chelzeemares

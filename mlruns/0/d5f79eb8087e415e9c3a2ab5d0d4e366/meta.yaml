@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d5f79eb8087e415e9c3a2ab5d0d4e366/artifacts
+end_time: 1715632925740
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5f79eb8087e415e9c3a2ab5d0d4e366
+run_name: carefree-gnat-272
+run_uuid: d5f79eb8087e415e9c3a2ab5d0d4e366
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715632891934
+status: 3
+tags: []
+user_id: chelzeemares

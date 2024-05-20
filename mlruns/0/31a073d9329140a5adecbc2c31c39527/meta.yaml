@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/31a073d9329140a5adecbc2c31c39527/artifacts
+end_time: 1715631915161
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31a073d9329140a5adecbc2c31c39527
+run_name: merciful-horse-759
+run_uuid: 31a073d9329140a5adecbc2c31c39527
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715631784732
+status: 3
+tags: []
+user_id: chelzeemares

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ace611350f534c239a10f5dd58fa8660/artifacts
+end_time: 1715632521461
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ace611350f534c239a10f5dd58fa8660
+run_name: peaceful-cow-960
+run_uuid: ace611350f534c239a10f5dd58fa8660
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715632508985
+status: 3
+tags: []
+user_id: chelzeemares
