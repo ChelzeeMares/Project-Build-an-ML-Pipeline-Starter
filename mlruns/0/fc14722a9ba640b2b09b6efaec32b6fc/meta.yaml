@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fc14722a9ba640b2b09b6efaec32b6fc/artifacts
+end_time: 1716227105250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc14722a9ba640b2b09b6efaec32b6fc
+run_name: big-asp-597
+run_uuid: fc14722a9ba640b2b09b6efaec32b6fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716227097859
+status: 4
+tags: []
+user_id: chelzeemares

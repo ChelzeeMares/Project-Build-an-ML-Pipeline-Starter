@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d9653705a852492f8a4a96329d0e3848/artifacts
+end_time: 1716227089039
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d9653705a852492f8a4a96329d0e3848
+run_name: brawny-mole-163
+run_uuid: d9653705a852492f8a4a96329d0e3848
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716227079359
+status: 3
+tags: []
+user_id: chelzeemares

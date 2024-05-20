@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/532e7dee069c4d68bcf7d9a68403d60a/artifacts
+end_time: 1716227105492
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 532e7dee069c4d68bcf7d9a68403d60a
+run_name: unruly-fawn-989
+run_uuid: 532e7dee069c4d68bcf7d9a68403d60a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716227075681
+status: 4
+tags: []
+user_id: chelzeemares
