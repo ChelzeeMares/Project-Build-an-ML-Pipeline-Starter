@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/44aedb83ee9f4d7398e26aef0a90bf94/artifacts
+end_time: 1716226819823
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44aedb83ee9f4d7398e26aef0a90bf94
+run_name: clumsy-hawk-662
+run_uuid: 44aedb83ee9f4d7398e26aef0a90bf94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716226781392
+status: 4
+tags: []
+user_id: chelzeemares

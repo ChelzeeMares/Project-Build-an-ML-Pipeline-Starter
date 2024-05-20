@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/921bfc6750d84099b01930457654adb5/artifacts
+end_time: 1716226288644
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 921bfc6750d84099b01930457654adb5
+run_name: unleashed-snipe-189
+run_uuid: 921bfc6750d84099b01930457654adb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716226287638
+status: 4
+tags: []
+user_id: chelzeemares

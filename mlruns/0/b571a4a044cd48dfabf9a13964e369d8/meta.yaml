@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chelzeemares/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b571a4a044cd48dfabf9a13964e369d8/artifacts
+end_time: 1716226819583
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b571a4a044cd48dfabf9a13964e369d8
+run_name: aged-bee-854
+run_uuid: b571a4a044cd48dfabf9a13964e369d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716226810644
+status: 4
+tags: []
+user_id: chelzeemares
